@@ -11,6 +11,9 @@ Travel Journal is a dynamic travel journal application designed for travelers to
 - **Search Cities**: Discover new cities or reminisce past travels by searching cities.
 - **Interactive GUI**: An intuitive interface built using SceneBuilder and JavaFX, making your journaling experience enjoyable.
 - **Relational Database**: Reliable MySQL database at the backend to store user data and trip details.
+- **Flagging System**: Users can flag entries that they find inappropriate. Admins can review flagged entries and decide the appropriate action (e.g., deletion of entry, removal of flag, or banning the user).
+- **Admin Oversight**: Admins can review flagged content and manage user profiles, ensuring the community remains positive and respectful.
+
 
 ## Project Structure
 
