@@ -55,12 +55,10 @@ public class AdminFlagsController implements Initializable {
                 adminPageEntry ce = new adminPageEntry(rs.getString("user"), rs.getString("city"), rs.getString("note"), rs.getString("reason"), rs.getString("flagger"),
                         rs.getDate("Date").toString(), rs.getInt("rating"), rs.getString("email"), rs.getString("flaggerEmail"), rs.getInt("locationID"));
                 o.add(ce);
-                //System.out.println(rs.getString("Date") + " " + rs.getInt("Rating") + " " + rs.getString("Note"));
             }
 
             addEntry(o);
 
-            //test("Hello");
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -97,7 +95,6 @@ public class AdminFlagsController implements Initializable {
 
             // You can now perform actions based on the selected row data
             if (ce != null) {
-                //System.out.println("Clicked on row: " + ce.getDate());
                 DBUtils.flaggedEntry = ce;
                 DBUtils.changeScene(event, "review-flags.fxml", "Review", null);
             }
