@@ -16,7 +16,7 @@ import java.sql.*;
 import java.util.ResourceBundle;
 
 /**
- * Controller class for the Admin Flags view in a JavaFX application.
+ * Controller class for the Admin Flags view.
  */
 public class AdminFlagsController implements Initializable {
 
