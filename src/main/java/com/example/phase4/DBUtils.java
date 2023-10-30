@@ -102,8 +102,6 @@ public class DBUtils {
         Connection connection = null;
         PreparedStatement psInsert = null;
         PreparedStatement psInsertAdminUser = null;
-        // PreparedStatement psCheckUserExists = null;
-        // ResultSet resultSet = null;
         try {
             connection = DriverManager.getConnection(sqlURL, "root", sqlPassword);
 
